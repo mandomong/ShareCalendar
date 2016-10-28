@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'NanumGothic';
+  src: url(/fonts/NanumGothic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumGothicBold';
+  src: url(/fonts/NanumGothic_Bold.ttf)
+}
+
+body {
+
+}
+
+.title_main{
+  padding: 20px;
+  font-family: NanumGothicBold;
+  font-size: 30pt;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: center;
+  color : white;
+  background-color: #2ab7a9;
+}
+
+.description{
+  padding: 20px;
+  font-family: NanumGothic;
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.login_form{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.button_group{
+  text-align: center;
+}
